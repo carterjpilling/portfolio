@@ -8,45 +8,50 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import ContactUs from '../components/ContactUs';
 import Gallery from '../components/Gallery';
+import CSS3 from '../assets//images/portfolio/logos/CSS3.png'
+import Express from '../assets//images/portfolio/logos/Express.png'
 
 const img_set = [
   {
-    src: require('../assets/images/portfolio/fullsize/1.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/1.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
+    src: require('../assets/images/portfolio/fullsize/skull.jpg'),
+    thumbnail: require('../assets/images/portfolio/thumbnails/skull.jpg'),
+    title: 'Know It All',
+    desc: 'A trivia website that tests your knowledge about Art and Culture.',
   },
   {
-    src: require('../assets/images/portfolio/fullsize/2.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/2.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
+    src: require('../assets/images/portfolio/fullsize/pic2.jpg'),
+    thumbnail: require('../assets/images/portfolio/thumbnails/pic2.jpg'),
+    title: 'BeachSide',
+    desc: 'Get live weather, tide, and swell info from beaches around the world.',
   },
-  {
-    src: require('../assets/images/portfolio/fullsize/3.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/3.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
-  },
-  {
-    src: require('../assets/images/portfolio/fullsize/4.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/4.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
-  },
-  {
-    src: require('../assets/images/portfolio/fullsize/5.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/5.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
-  },
-  {
-    src: require('../assets/images/portfolio/fullsize/6.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/6.jpg'),
-    title: 'Category',
-    desc: 'Project Name',
-  },
+  // {
+  //   src: require('../assets/images/portfolio/fullsize/3.jpg'),
+  //   thumbnail: require('../assets/images/portfolio/thumbnails/3.jpg'),
+  //   title: 'Category',
+  //   desc: 'Project Name',
+  // },
+  // {
+  //   src: require('../assets/images/portfolio/fullsize/4.jpg'),
+  //   thumbnail: require('../assets/images/portfolio/thumbnails/4.jpg'),
+  //   title: 'Category',
+  //   desc: 'Project Name',
+  // },
+  // {
+  //   src: require('../assets/images/portfolio/fullsize/5.jpg'),
+  //   thumbnail: require('../assets/images/portfolio/thumbnails/5.jpg'),
+  //   title: 'Category',
+  //   desc: 'Project Name',
+  // },
+  // {
+  //   src: require('../assets/images/portfolio/fullsize/6.jpg'),
+  //   thumbnail: require('../assets/images/portfolio/thumbnails/6.jpg'),
+  //   title: 'Category',
+  //   desc: 'Project Name',
+  // },
 ];
+
+
+
 const IndexPage = () => (
   <Layout>
     <Header />
@@ -81,7 +86,7 @@ const IndexPage = () => (
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-8 text-center">
-            <h2 className="text-white mt-0">We've got what you need!</h2>
+            <h2 className="text-white mt-0">About Me</h2>
             <hr className="divider light my-4" />
             <p className="text-white-50 mb-4">
               Start Bootstrap has everything you need to get your new website up
@@ -103,9 +108,9 @@ const IndexPage = () => (
 
     <section className="page-section" id="services">
       <div className="container">
-        <h2 className="text-center mt-0">At Your Service</h2>
+        <h2 className="text-center mt-0">Projects</h2>
         <hr className="divider my-4" />
-        <div className="row">
+        {/* <div className="row">
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <i className="fas fa-4x fa-gem text-primary mb-4"></i>
@@ -142,7 +147,7 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
 
@@ -152,19 +157,31 @@ const IndexPage = () => (
 
     <section className="page-section bg-dark text-white">
       <div className="container text-center">
-        <h2 className="mb-4">Free Download Gatsby Starter!</h2>
-        <a
-          className="btn btn-light btn-xl"
-          href="https://github.com/anubhavsrivastava/gatsby-starter-creative"
-        >
-          Download Now!
-        </a>
+        <h2 className="mb-4">Skills</h2>
+        <div>
+          <section>
+            <img src={CSS3} alt='CSS3 Logo' />
+            <p>CSS3</p>
+          </section>
+          <section>
+            <img src={Express} alt='Express Logo' />
+            <p>Express.js</p>
+          </section>
+          <section>
+            <img src={CSS3} alt='CSS3 Logo' />
+            <p>CSS3</p>
+          </section>
+          <section>
+            <img src={CSS3} alt='CSS3 Logo' />
+            <p>CSS3</p>
+          </section>
+        </div>
       </div>
     </section>
 
     <ContactUs />
 
-    <Footer />
+    {/* <Footer /> */}
   </Layout>
 );
 
