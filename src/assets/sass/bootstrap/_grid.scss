@@ -9,6 +9,10 @@
   }
 }
 
+.col-lg-4.col-sm-6{
+  // margin: 25px;
+  // width: 100%;
+}
 // Fluid container
 //
 // Utilizes the mixin meant for fixed width containers, but with 100% width for
@@ -32,12 +36,18 @@
   // Remove the negative margin from default .row, then the horizontal padding
   // from all immediate children columns (to prevent runaway style inheritance).
   .no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
     margin-bottom: 25px;
 
     > .col,
     > [class*="col-"] {
+      // align-self: center;
       padding-right: 0;
       padding-left: 0;
     }

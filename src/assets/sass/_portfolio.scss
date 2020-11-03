@@ -1,11 +1,20 @@
 // Styling for the portfolio section
 #portfolio {
   .container-fluid {
-    max-width: 1920px;
+    // max-width: 1920px;
+    background-color: pink;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
     .portfolio-box {
+      width: 400px;
+      height: 300px;
+      // margin: 25px;
       position: relative;
       display: block;
+      overflow: hidden;
       .portfolio-box-caption {
+        // margin: 25px;
         display: flex;
         align-items: center;
         justify-content: center;

@@ -19,8 +19,8 @@ const img_set = [
     desc: 'A trivia website that tests your knowledge about Art and Culture.',
   },
   {
-    src: require('../assets/images/portfolio/fullsize/pic2.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/pic2.jpg'),
+    src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
+    thumbnail: require('../assets/images/portfolio/thumbnails/pic3.jpg'),
     title: 'BeachSide',
     desc: 'Get live weather, tide, and swell info from beaches around the world.',
   },
@@ -75,10 +75,10 @@ const logo_set = [
     src: require('../assets//images/portfolio/logos/Git.png'),
     name: 'git'
   },
-  {
-    src: require('../assets//images/portfolio/logos/Next.png'),
-    name: 'Next.js'
-  },
+  // {
+  //   src: require('../assets//images/portfolio/logos/Next.png'),
+  //   name: 'Next.js'
+  // },
   {
     src: require('../assets//images/portfolio/logos/node.png'),
     name: 'Node.js'
@@ -164,7 +164,7 @@ const IndexPage = () => (
       <div className="container">
         <h2 className="text-center mt-0">Projects</h2>
         <hr className="divider my-4" />
-        {/* <div className="row">
+        <div className="row">
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <i className="fas fa-4x fa-gem text-primary mb-4"></i>
@@ -201,7 +201,7 @@ const IndexPage = () => (
               </p>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
 
