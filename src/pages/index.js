@@ -50,7 +50,61 @@ const img_set = [
   // },
 ];
 
+const logo_set = [
+  {
+    src: require('../assets//images/portfolio/logos/JavaScript.png'),
+    name: 'JavaScript'
+  },
+  {
+    src: require('../assets//images/portfolio/logos/CSS3.png'),
+    name: 'CSS3'
+  },
+  {
+    src: require('../assets//images/portfolio/logos/HTML5.png'),
+    name: 'HTML5'
+  },
+  {
+    src: require('../assets//images/portfolio/logos/React.png'),
+    name: 'React.js'
+  },
+  {
+    src: require('../assets//images/portfolio/logos/Express.png'),
+    name: 'Express.js'
+  },
+  {
+    src: require('../assets//images/portfolio/logos/Git.png'),
+    name: 'git'
+  },
+  {
+    src: require('../assets//images/portfolio/logos/Next.png'),
+    name: 'Next.js'
+  },
+  {
+    src: require('../assets//images/portfolio/logos/node.png'),
+    name: 'Node.js'
+  },
+  {
+    src: require('../assets//images/portfolio/logos/PostgreSQL.png'),
+    name: 'PostreSQL'
+  },
+  {
+    src: require('../assets//images/portfolio/logos/Sass.png'),
+    name: 'Sass'
+  },
+]
 
+const logos = logo_set.map((e) => {
+  return (
+    <div key={e.src} className='logo-container'>
+      <img
+        className='logo-img'
+        src={e.src}
+        alt={e.name}
+      />
+      <p className='logo-name'>{e.name}</p>
+    </div>
+  )
+})
 
 const IndexPage = () => (
   <Layout>
@@ -158,23 +212,8 @@ const IndexPage = () => (
     <section className="page-section bg-dark text-white">
       <div className="container text-center">
         <h2 className="mb-4">Skills</h2>
-        <div>
-          <section>
-            <img src={CSS3} alt='CSS3 Logo' />
-            <p>CSS3</p>
-          </section>
-          <section>
-            <img src={Express} alt='Express Logo' />
-            <p>Express.js</p>
-          </section>
-          <section>
-            <img src={CSS3} alt='CSS3 Logo' />
-            <p>CSS3</p>
-          </section>
-          <section>
-            <img src={CSS3} alt='CSS3 Logo' />
-            <p>CSS3</p>
-          </section>
+        <div className='skills-logo-container'>
+          {logos}
         </div>
       </div>
     </section>

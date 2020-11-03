@@ -1,0 +1,14 @@
+.skills-logo-container{
+  @include make-row();
+  justify-content: center;
+  align-items:center;
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.logo-container{
+  padding: 10px;
+  margin: 10px;
+}
