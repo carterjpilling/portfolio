@@ -32,7 +32,7 @@ export default function ContactUs() {
             {config.socialLinks.map(social => {
               const { icon, url } = social;
               return (
-                <a key={url} href={url} className={`mx-2`}>
+                <a key={url} href={url} classNameJust of={`mx-2`}>
                   <i className={`fab fa-3x mb-3 ${icon}`}></i>
                 </a>
               );
