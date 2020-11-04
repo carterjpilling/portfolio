@@ -1,6 +1,5 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import Lightbox from 'react-images';
 
 class Gallery extends Component {
   constructor() {
@@ -18,30 +17,40 @@ class Gallery extends Component {
     const gallery = images.map((obj, i) => {
       return (
         <div key={obj.src}
-          className="col-lg-4 col-sm-6"
+          className="gallery-container"
         >
-          <a
-            // onClick={}
-            className="portfolio-box"
-          // href={obj.src}
-          >
-            <img
-              className="img-fluid"
-              src={obj.thumbnail}
-              alt={obj.description}
-              title={obj.title}
-            />
-            <div className="portfolio-box-caption">
-              <div className="project-category text-white-50">{obj.title}</div>
-              <div className="project-name">{obj.desc}</div>
+          <div className='portfolio-container'>
+            <a
+              // onClick={}
+              className="portfolio-box"
+            // href={obj.src}
+            >
+              <img
+                className="img-fluid"
+                src={obj.thumbnail}
+                alt={obj.description}
+                title={obj.title}
+              />
+              <div className="portfolio-box-caption">
+                <div className="project-category text-white-50">{obj.title}</div>
+                <div className="project-name">{obj.desc}</div>
+              </div>
+            </a>
+            <div className='project-descriptions'>
+              <p>{obj.info}</p>
+              <p>{obj.info2}</p>
+              <p>{obj.info3}</p>
+
             </div>
-          </a>
+          </div>
         </div>
       );
     });
 
     return (
       <div className="container-fluid p-0">
+        <h2 className="text-center mt-0">Projects</h2>
+        <hr className="divider my-4" />
         <div className="no-gutters">
           {gallery}
         </div>

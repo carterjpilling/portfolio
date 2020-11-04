@@ -40,7 +40,7 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
+          <a className="navbar-brand" href="#top">
             {config.siteTitle}
           </a>
 
@@ -48,7 +48,7 @@ export default class Header extends Component {
             onClick={_ => this.toggleMenu(!openMenu)}
             className={`navbar-toggler navbar-toggler-right ${
               openMenu ? '' : 'collapsed'
-            }`}
+              }`}
             type="button"
             aria-controls="navbarResponsive"
             aria-expanded={openMenu}
@@ -80,7 +80,7 @@ export default class Header extends Component {
                   element="services"
                 >
                   <a className="nav-link" href="#services">
-                    Services
+                    Philosphy
                   </a>
                 </Scroll>
               </li>
@@ -91,7 +91,7 @@ export default class Header extends Component {
                   element="portfolio"
                 >
                   <a className="nav-link" href="#portfolio">
-                    Portfolio
+                    Projects
                   </a>
                 </Scroll>
               </li>

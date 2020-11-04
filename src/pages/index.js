@@ -17,12 +17,18 @@ const img_set = [
     thumbnail: require('../assets/images/portfolio/thumbnails/skull.jpg'),
     title: 'Know It All',
     desc: 'A trivia website that tests your knowledge about Art and Culture.',
+    info: 'Know It All is a trivia website built to test your knowledge of the arts.',
+    info2: `The trivia games are made using The Metropolitan Museum of Art Collection's API. Users who register for an account can earn points for correct answers, change profile pictures, and track game statistics`,
+    info3: 'Built using: React.js, Express, PostrgreSQL, D3, SASS, HTML and JavaScript.'
   },
   {
     src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
     thumbnail: require('../assets/images/portfolio/thumbnails/pic3.jpg'),
     title: 'BeachSide',
     desc: 'Get live weather, tide, and swell info from beaches around the world.',
+    info: 'Beachside is a real-time beach weather website.',
+    info2: 'Built remotely with a team of four, our goal with Beachside was to put all the weather and water info you would need for a beach visit in one place. Users can use Google Maps to search for beaches and save them to a favorites page.',
+    info3: 'Built using React.js, StormGlass API, Weather API, JavaScript, HTML, CSS, PostrgeSQL and Express.'
   },
   // {
   //   src: require('../assets/images/portfolio/fullsize/3.jpg'),
@@ -143,16 +149,14 @@ const IndexPage = () => (
             <h2 className="text-white mt-0">About Me</h2>
             <hr className="divider light my-4" />
             <p className="text-white-50 mb-4">
-              Start Bootstrap has everything you need to get your new website up
-              and running in no time! Choose one of our open source, free to
-              download, and easy to use themes! No strings attached!
+              After working in Administration for several years, I knew I wanted to take my strengths and take on a new challenge. Devmountain's coding bootcamp allowed me to pivot my future and my career for the better. I have loved every minute of problem solving, finding solutions, learning new technologies, and improving app efficiencies. When I'm not coding, I'm spending time with my dog in the great outdoors, playing board games, and cheering on my favorite sport teams. If you have any questions, please don't hestiate to reach out!
             </p>
-            <Scroll type="id" element="services">
+            <Scroll type="id" element="portfolio">
               <a
                 className="btn btn-light btn-xl js-scroll-trigger"
-                href="#services"
+                href="#portfolio"
               >
-                Get Started!
+                See my projects below!
               </a>
             </Scroll>
           </div>
@@ -162,42 +166,42 @@ const IndexPage = () => (
 
     <section className="page-section" id="services">
       <div className="container">
-        <h2 className="text-center mt-0">Projects</h2>
+        <h2 className="text-center mt-0">Philosophy</h2>
         <hr className="divider my-4" />
         <div className="row">
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <i className="fas fa-4x fa-gem text-primary mb-4"></i>
-              <h3 className="h4 mb-2">Sturdy Themes</h3>
+              <h3 className="h4 mb-2">Hard Worker</h3>
               <p className="text-muted mb-0">
-                Our themes are updated regularly to keep them bug free!
+                Problem solving is my motivater.
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <i className="fas fa-4x fa-laptop-code text-primary mb-4"></i>
-              <h3 className="h4 mb-2">Up to Date</h3>
+              <h3 className="h4 mb-2">Qualified</h3>
               <p className="text-muted mb-0">
-                All dependencies are kept current to keep things fresh.
+                Check out my skills below, I know my stuff!
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <i className="fas fa-4x fa-globe text-primary mb-4"></i>
-              <h3 className="h4 mb-2">Ready to Publish</h3>
+              <h3 className="h4 mb-2">Learner</h3>
               <p className="text-muted mb-0">
-                You can use this design as is, or you can make changes!
+                I love researching, searching, and learning. Google is my BFF and I'm not afraid to use it.
               </p>
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-center">
             <div className="mt-5">
               <i className="fas fa-4x fa-heart text-primary mb-4"></i>
-              <h3 className="h4 mb-2">Made with Love</h3>
+              <h3 className="h4 mb-2">Relatable</h3>
               <p className="text-muted mb-0">
-                Is it really open source if it's not made with love?
+                I got loads of colleagues and friends. Just check out my MySpace.
               </p>
             </div>
           </div>
