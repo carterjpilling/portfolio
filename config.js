@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Cj Pilling', // <title>
+  siteTitle: 'Cj Pilling | Web Developer', // <title>
   manifestName: 'Creative',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -22,12 +22,7 @@ module.exports = {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/cj-pilling/',
-    },
-    // {
-    //   icon: 'GrDocumentText',
-    //   name: 'Resume',
-    //   url: 'https://docs.google.com/document/d/10qx7N-hgmQPHI6PuSiKrgXbn3Yte8dldYEz27nb5JPM/edit?usp=sharing',
-    // }
+    }
   ],
   email: 'carterjpilling@gmail.com',
   phone: '801-318-7826',

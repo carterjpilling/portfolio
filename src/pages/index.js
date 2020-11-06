@@ -17,18 +17,20 @@ const img_set = [
     thumbnail: require('../assets/images/portfolio/thumbnails/skull.jpg'),
     title: 'Know It All',
     desc: 'A trivia website that tests your knowledge about Art and Culture.',
-    info: 'Know It All is a trivia website built to test your knowledge of the arts.',
-    info2: `The trivia games are made using The Metropolitan Museum of Art Collection's API. Users who register for an account can earn points for correct answers, change profile pictures, and track game statistics`,
-    info3: 'Built using: React.js, Express, PostrgreSQL, D3, SASS, HTML and JavaScript.'
+    info: 'Know It All - Click above to visit.',
+    info2: `The trivia games are made using The Metropolitan Museum of Art Collection's API. Users who register for an account can earn points for correct answers, change profile pictures, and track game statistics.`,
+    info3: 'Built using: React.js, Express, PostrgreSQL, D3, SASS, HTML and JavaScript.',
+    ref: 'https://knowitallgame.com/#/homepage'
   },
   {
     src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
     thumbnail: require('../assets/images/portfolio/thumbnails/pic3.jpg'),
     title: 'BeachSide',
     desc: 'Get live weather, tide, and swell info from beaches around the world.',
-    info: 'Beachside is a real-time beach weather website.',
+    info: 'Beachside is a real-time beach weather website. Click above to visit.',
     info2: 'Built remotely with a team of four, our goal with Beachside was to put all the weather and water info you would need for a beach visit in one place. Users can use Google Maps to search for beaches and save them to a favorites page.',
-    info3: 'Built using React.js, StormGlass API, Weather API, JavaScript, HTML, CSS, PostrgeSQL and Express.'
+    info3: 'Built using React.js, StormGlass API, Weather API, JavaScript, HTML, CSS, PostrgeSQL and Express.',
+    ref: 'http://157.245.191.52:4545/#/'
   },
   // {
   //   src: require('../assets/images/portfolio/fullsize/3.jpg'),
@@ -194,7 +196,7 @@ const IndexPage = () => (
               <i className="fas fa-4x fa-globe text-primary mb-4"></i>
               <h3 className="h4 mb-2">Learner</h3>
               <p className="text-muted mb-0">
-                I love researching, searching, and learning. Google is my BFF and I'm not afraid to use it.
+                I love researching, code-referencing, and learning. Google is my BFF and I'm not afraid to use it.
               </p>
             </div>
           </div>

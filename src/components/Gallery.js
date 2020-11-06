@@ -23,7 +23,7 @@ class Gallery extends Component {
             <a
               // onClick={}
               className="portfolio-box"
-            // href={obj.src}
+              href={obj.ref}
             >
               <img
                 className="img-fluid"
