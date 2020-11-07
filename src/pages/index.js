@@ -151,7 +151,7 @@ const IndexPage = () => (
             <h2 className="text-white mt-0">About Me</h2>
             <hr className="divider light my-4" />
             <p className="text-white-50 mb-4">
-              After working in Administration for several years, I knew I wanted to use my strengths to take on a new challenge. Devmountain's coding bootcamp allowed me to pivot my future and career for the better. I have loved every minute of problem solving, finding solutions, learning new technologies, and improving app efficiencies. As a developer, I want to use technology to make the world a better place for current and future generations.<br /><br /> When I'm not coding, I'm spending time with my dog in the great outdoors, playing board games, and cheering on my favorite sport teams. If you have any questions, please don't hesitate to reach out!
+              After working in Sports Administration for several years, I knew I wanted to use my strengths to take on a new challenge. Devmountain's coding bootcamp allowed me to pivot my future and career for the better. I have loved every minute of problem solving, finding solutions, learning new technologies, and improving app efficiencies. As a developer, I want to use technology to make the world a better place for current and future generations.<br /><br /> When I'm not coding, I'm spending time with my dog in the great outdoors, playing board games, and cheering on my favorite sport teams. If you have any questions, please don't hesitate to reach out!
 
 
             </p>

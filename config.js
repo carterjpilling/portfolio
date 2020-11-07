@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Cj Pilling | Web Developer', // <title>
+  siteTitle: 'Cj Pilling | Web Dev', // <title>
   manifestName: `Cj Pilling's portfolio. Check it out!`,
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-creative/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Hello!!',
+  heading: 'Hi!!',
   subHeading: `I'm Cj Pilling, and I'm a Full Stack Web Developer.`,
 
   // social
