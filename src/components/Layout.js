@@ -29,6 +29,7 @@ class Layout extends Component {
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
+              <meta name="image" property="og:image" content="../assets/img/portfolio.png"></meta>
               <html lang="en" />
             </Helmet>
             <div className={'page-top'}>{children}</div>
