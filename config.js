@@ -6,9 +6,9 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/img/CJWebsiteLogo.png',
   pathPrefix: `/gatsby-starter-creative/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Hi!!',
+  heading: 'Hello!!',
   subHeading: `I'm Cj Pilling, and I'm a Full Stack Web Developer.`,
 
   // social
