@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/CJWebsiteLogo.png',
   pathPrefix: `/gatsby-starter-creative/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Hello!!',
-  subHeading: `I'm Cj Pilling, and I'm a Full Stack Web Developer.`,
+  subHeading: `I'm Cj Pilling, and I'm a Full-Stack Web Developer.`,
 
   // social
   socialLinks: [
