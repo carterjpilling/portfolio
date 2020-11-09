@@ -24,8 +24,8 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'image', content: '../assets/img/PortfolioScreenShot.png' },
-                { name: 'description', content: 'Thanks for checking out my portfolio' },
+                { name: 'og:image', content: '../assets/img/PortfolioScreenShot.png' },
+                { name: 'og:description', content: 'Thanks for checking out my portfolio' },
                 { name: 'keywords', content: 'site, web' },
               ]}
             >
