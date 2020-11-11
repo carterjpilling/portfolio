@@ -92,6 +92,10 @@ const logo_set = [
     name: 'Node.js'
   },
   {
+    src: require('../assets//images/portfolio/logos/Redux.png'),
+    name: 'Redux'
+  },
+  {
     src: require('../assets//images/portfolio/logos/PostgreSQL.png'),
     name: 'PostreSQL'
   },
