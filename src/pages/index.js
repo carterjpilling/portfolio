@@ -30,7 +30,7 @@ const img_set = [
     info: 'Beachside is a real-time beach weather website. Click above to visit.',
     info2: 'Built remotely with a team of four, our goal with Beachside was to put all the weather and water info you would need for a beach visit in one place. Users can use Google Maps to search for beaches and save them to a favorites page.',
     info3: 'Built using React.js, StormGlass API, Weather API, JavaScript, HTML, CSS, PostrgeSQL and Express.',
-    ref: 'http://157.245.191.52:4545/#/'
+    ref: 'https://www.shoreside.dev/#/'
   },
   // {
   //   src: require('../assets/images/portfolio/fullsize/3.jpg'),
