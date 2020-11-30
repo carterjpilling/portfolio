@@ -19,7 +19,7 @@ const img_set = [
     desc: 'A trivia website that tests your knowledge about Art and Culture.',
     info: 'Know It All - Click above to visit.',
     info2: `The trivia games are made using The Metropolitan Museum of Art Collection's API. Users who register for an account can earn points for correct answers, change profile pictures, and track game statistics.`,
-    info3: 'Built using: React.js, Express, PostrgreSQL, D3, SASS, HTML and JavaScript.',
+    info3: 'Built using: React.js, Express, PostgreSQL, D3, SASS, HTML and JavaScript.',
     ref: 'https://knowitallgame.com/#/homepage'
   },
   {
