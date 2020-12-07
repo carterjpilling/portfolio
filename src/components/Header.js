@@ -80,7 +80,7 @@ export default class Header extends Component {
                   element="services"
                 >
                   <a className="nav-link" href="#services">
-                    Philosphy
+                    Philosophy
                   </a>
                 </Scroll>
               </li>
