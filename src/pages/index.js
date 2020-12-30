@@ -20,7 +20,8 @@ const img_set = [
     info: 'Know It All - Click above to visit.',
     info2: `The trivia games are made using The Metropolitan Museum of Art Collection's API. Users who register for an account can earn points for correct answers, change profile pictures, and track game statistics.`,
     info3: 'Built using: React.js, Express, PostgreSQL, D3, SASS, HTML and JavaScript.',
-    ref: 'https://knowitallgame.com/#/homepage'
+    ref: 'https://knowitallgame.com/#/homepage',
+    github: 'https://github.com/carterjpilling/know-it-all'
   },
   {
     src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
@@ -30,7 +31,8 @@ const img_set = [
     info: 'Beachside is a real-time beach weather website. Click above to visit.',
     info2: 'Built remotely with a team of four, our goal with Beachside was to put all the weather and water info you would need for a beach visit in one place. Users can use Google Maps to search for beaches and save them to a favorites page.',
     info3: 'Built using React.js, StormGlass API, Weather API, JavaScript, HTML, CSS, PostrgeSQL and Express.',
-    ref: 'https://www.shoreside.dev/#/'
+    ref: 'https://www.shoreside.dev/#/',
+    github: 'https://github.com/beach-side/beachside'
   },
   // {
   //   src: require('../assets/images/portfolio/fullsize/3.jpg'),

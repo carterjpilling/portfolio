@@ -40,7 +40,15 @@ class Gallery extends Component {
               <p>{obj.info}</p>
               <p>{obj.info2}</p>
               <p>{obj.info3}</p>
-
+            </div>
+            <div className="gallery-button-container">
+              <a
+                href={obj.ref}>
+                <button className="external-link-button">Website</button>
+              </a>
+              <a href={obj.github}>
+                <button className="external-link-button">GitHub</button>
+              </a>
             </div>
           </div>
         </div>
