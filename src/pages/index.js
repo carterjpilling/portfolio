@@ -10,7 +10,9 @@ import ContactUs from '../components/ContactUs';
 import Gallery from '../components/Gallery';
 // import CSS3 from '../assets//images/portfolio/logos/CSS3.png'
 // import Express from '../assets//images/portfolio/logos/Express.png'
-
+const img = [
+  { src: require('../assets/images/portfolio/fullsize/2.jpg') }
+]
 const img_set = [
   {
     src: require('../assets/images/portfolio/fullsize/skull.jpg'),
