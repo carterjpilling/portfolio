@@ -15,7 +15,8 @@ const img = [
 ]
 const img_set = [
   {
-    src: require('../assets/images/portfolio/fullsize/skull.jpg'),
+    src: require('../assets/img/portfolio.png'),
+    srctwo: require('../assets/images/portfolio/fullsize/skull.jpg'),
     thumbnail: require('../assets/images/portfolio/thumbnails/skull.jpg'),
     title: 'Know It All',
     desc: 'A trivia website that tests your knowledge about Art and Culture.',
@@ -27,6 +28,7 @@ const img_set = [
   },
   {
     src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
+    srctwo: require('../assets/images/portfolio/fullsize/pic3.jpg'),
     thumbnail: require('../assets/images/portfolio/thumbnails/pic3.jpg'),
     title: 'BeachSide',
     desc: 'Get live weather, tide, and swell info from beaches around the world.',
