@@ -36,6 +36,19 @@ const img_set = [
     ref: 'https://www.shoreside.dev/#/',
     github: 'https://github.com/beach-side/beachside'
   },
+  {
+    src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
+    thumbnail: require('../assets/images/portfolio/thumbnails/tic.png'),
+    title: 'Tic-Tac-Toe',
+    desc: 'Give your best effort against an AI programmed to never lose',
+    info: 'I built this Tic-Tac-Toe with the idea to create an unbeatable computer.',
+    info2: 'This mini was built using basic HTML, JavaSript and CSS. Creating the unbeatable AI required studying Tic-Tac-Toe strategies online. If you want to see how it works, check out the GitHub link below.',
+    ref: 'https://cj-tic-tac-toe.netlify.app/',
+    github: 'https://github.com/carterjpilling/tic-tac-toe'
+  },
+
+  //https://cj-tic-tac-toe.netlify.app/
+
   // {
   //   src: require('../assets/images/portfolio/fullsize/3.jpg'),
   //   thumbnail: require('../assets/images/portfolio/thumbnails/3.jpg'),
