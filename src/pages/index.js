@@ -46,6 +46,27 @@ const img_set = [
     ref: 'https://cj-tic-tac-toe.netlify.app/',
     github: 'https://github.com/carterjpilling/tic-tac-toe'
   },
+  {
+    src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
+    thumbnail: require('../assets/images/portfolio/thumbnails/Convert.png'),
+    title: 'Currency Converter',
+    desc: 'Use this simple app to check exchange rates from major global currencies.',
+    info: 'This Currency Converter was built to show that I can work with external APIs and API Keys.',
+    info2: 'The project was built within React using JavaScript, CSS, and MaterialUI. The dropdown selections lists are pulled from the initial API request. What makes this project cool, is that it only ever makes one request and then uses that data for every user request.',
+    ref: 'https://currency-converter-money.netlify.app/',
+    github: 'https://github.com/carterjpilling/currency-converter'
+  },
+  {
+    src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
+    thumbnail: require('../assets/images/portfolio/thumbnails/Pig6.png'),
+    title: 'Pass the Dice',
+    desc: `A digital take on the popular 'Pass the Pigs' game.`,
+    info: 'Pass the Dice is a web game based off of Pass the Pigs board game. Instead of using pigs, you will be rolling dice',
+    info2: `First one to 100 wins, if you roll a '1' you must pass the dice. `,
+    info3: `The application was made using React, Material UI, React Hook and UseEffect. For the dice I used a switch statement with Math.Random and Dice from React Icons.`,
+    ref: 'https://pass-the-dice.netlify.app/',
+    github: 'https://github.com/carterjpilling/pass-the-pigs'
+  },
 
   //https://cj-tic-tac-toe.netlify.app/
 
