@@ -109,10 +109,10 @@ const logo_set = [
     src: require('../assets//images/portfolio/logos/HTML5.png'),
     name: 'HTML5'
   },
-  {
-    src: require('../assets//images/portfolio/logos/CS.png'),
-    name: 'C#'
-  },
+  // {
+  //   src: require('../assets//images/portfolio/logos/CS.png'),
+  //   name: 'C#'
+  // },
   {
     src: require('../assets//images/portfolio/logos/React.png'),
     name: 'React.js'
