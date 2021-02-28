@@ -12,28 +12,28 @@ import Gallery from '../components/Gallery';
 // import Express from '../assets//images/portfolio/logos/Express.png'
 import ReactGA from 'react-ga'
 const img_set = [
-  {
-    src: require('../assets/img/portfolio.png'),
-    thumbnail: require('../assets/img/portfolio.png'),
-    title: 'Know It All',
-    desc: 'A trivia website that tests your knowledge about Art and Culture.',
-    info: 'Know It All - Click above to visit.',
-    info2: `The trivia games are made using The Metropolitan Museum of Art Collection's API. Users who register for an account can earn points for correct answers, change profile pictures, and track game statistics.`,
-    info3: 'Built using: React.js, Express, PostgreSQL, D3, SASS, HTML and JavaScript.',
-    ref: 'https://knowitallgame.com/#/homepage',
-    github: 'https://github.com/carterjpilling/know-it-all'
-  },
-  {
-    src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/pic3.jpg'),
-    title: 'BeachSide',
-    desc: 'Get live weather, tide, and swell info from beaches around the world.',
-    info: 'Beachside is a real-time beach weather website. Click above to visit.',
-    info2: 'Built remotely with a team of four, our goal with Beachside was to put all the weather and water info you would need for a beach visit in one place. Users can use Google Maps to search for beaches and save them to a favorites page.',
-    info3: 'Built using React.js, StormGlass API, Weather API, JavaScript, HTML, CSS, PostrgeSQL and Express.',
-    ref: 'https://www.shoreside.dev/#/',
-    github: 'https://github.com/beach-side/beachside'
-  },
+  // {
+  //   src: require('../assets/img/portfolio.png'),
+  //   thumbnail: require('../assets/img/portfolio.png'),
+  //   title: 'Know It All',
+  //   desc: 'A trivia website that tests your knowledge about Art and Culture.',
+  //   info: 'Know It All - Click above to visit.',
+  //   info2: `The trivia games are made using The Metropolitan Museum of Art Collection's API. Users who register for an account can earn points for correct answers, change profile pictures, and track game statistics.`,
+  //   info3: 'Built using: React.js, Express, PostgreSQL, D3, SASS, HTML and JavaScript.',
+  //   ref: 'https://knowitallgame.com/#/homepage',
+  //   github: 'https://github.com/carterjpilling/know-it-all'
+  // },
+  // {
+  //   src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
+  //   thumbnail: require('../assets/images/portfolio/thumbnails/pic3.jpg'),
+  //   title: 'BeachSide',
+  //   desc: 'Get live weather, tide, and swell info from beaches around the world.',
+  //   info: 'Beachside is a real-time beach weather website. Click above to visit.',
+  //   info2: 'Built remotely with a team of four, our goal with Beachside was to put all the weather and water info you would need for a beach visit in one place. Users can use Google Maps to search for beaches and save them to a favorites page.',
+  //   info3: 'Built using React.js, StormGlass API, Weather API, JavaScript, HTML, CSS, PostrgeSQL and Express.',
+  //   ref: 'https://www.shoreside.dev/#/',
+  //   github: 'https://github.com/beach-side/beachside'
+  // },
   {
     src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
     thumbnail: require('../assets/images/portfolio/thumbnails/tic.png'),
@@ -44,16 +44,16 @@ const img_set = [
     ref: 'https://cj-tic-tac-toe.netlify.app/',
     github: 'https://github.com/carterjpilling/tic-tac-toe'
   },
-  {
-    src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
-    thumbnail: require('../assets/images/portfolio/thumbnails/Convert.png'),
-    title: 'Currency Converter',
-    desc: 'Use this simple app to check exchange rates from major global currencies.',
-    info: 'This Currency Converter was built to show that I can work with external APIs and API Keys.',
-    info2: 'The project was built within React using JavaScript, CSS, and MaterialUI. The dropdown selections lists are pulled from the initial API request. What makes this project cool, is that it only ever makes one request and then uses that data for every user request.',
-    ref: 'https://currency-converter-money.netlify.app/',
-    github: 'https://github.com/carterjpilling/currency-converter'
-  },
+  // {
+  //   src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
+  //   thumbnail: require('../assets/images/portfolio/thumbnails/Convert.png'),
+  //   title: 'Currency Converter',
+  //   desc: 'Use this simple app to check exchange rates from major global currencies.',
+  //   info: 'This Currency Converter was built to show that I can work with external APIs and API Keys.',
+  //   info2: 'The project was built within React using JavaScript, CSS, and MaterialUI. The dropdown selections lists are pulled from the initial API request. What makes this project cool, is that it only ever makes one request and then uses that data for every user request.',
+  //   ref: 'https://currency-converter-money.netlify.app/',
+  //   github: 'https://github.com/carterjpilling/currency-converter'
+  // },
   {
     src: require('../assets/images/portfolio/fullsize/pic3.jpg'),
     thumbnail: require('../assets/images/portfolio/thumbnails/Pig6.png'),
